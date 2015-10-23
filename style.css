@@ -1,9 +1,17 @@
 body {
-	background: black;
+	background: #1BF095;
 }
 h1	{
 	font-family: helvetica;
 	color: white;
+}
+
+h2 {
+	font-family: helvetica;
+	font-size: 18px;
+	font-weight: 300;
+	color: #000000;
+
 }
 #container {
 	text-align: center;
