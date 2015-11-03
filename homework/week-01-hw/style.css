@@ -1,70 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700,300);
+
+html {
+	height: 100%;
+}
+
 body {
+	background-color: #FFF9E8;
+	border: 20px solid #ffffff;
+	margin: 0px;
+	height: 100%;
+}
+
+.everything {
+	width: 960px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a {
-	color:#e67e22;
+	color:#F69D4F;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
-	font-family: helvetica;
-	font-weight: bold;
-	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
 }
 
 h1 {
-	color:#e67e22;
-	font-size: 72px;
-	text-transform: lowercase;
-	font-family: helvetica;
+	color:#585858;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
 	margin-bottom: 0px;
+	line-height: 30px;
 }
 
-h6 {
-	color: #777777;
-	font-size: 12px;
-	font-family: georgia;
-	text-align: center;
+h3 {
+	color: #000000;
+	font-size: 18px;
+font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	text-transform: lowercase;
 }
 
 p {
 	color: #333333;
 	font-size: 18px;
-	font-family: georgia;
+font-family: 'Lato', sans-serif;
+	font-weight: 300;
 	padding-left: 30px;
-}
-
-.nav {
-	list-style-type: none;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	padding: 15px;
-}
-
-/*.nav li{
-	float: left;
-}*/
-
-li {
-	display: inline;
-	padding: 10px;
-
 }
 
 .logo {
 	width: 100px;
-	margin-left: 50px;
+	margin-top: 30px;
+
+}
+
+.nav {
+	list-style-type: none;
+	padding: 15px;
+	padding-right: 0px;
+	display: inline-block; 
+	position: absolute;
+	right: 0px;
+	margin-top: 50px;
+}
+
+.nav li{
+	float: left;
+}
+
+li {
+	display: inline;
+	padding-right: 10px;
+
+}
+
+li:last-child {
+	padding-right: 0px;
+
+}
+
+/*.blue {
+	background-color: #B6D4E0;
+	height: 450px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;*/
+}
+
+.resumediv {
+	width: 500px;
+	height: auto;
+}
+
+.resume {
+	width: 500px;
+	height: auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 .picture-day {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 	height: 300px;
+
+}
+
+.picture-day img {
+	width: 300px;
+	height: auto;
+	margin-right: 26px;
+	margin-top: 50px;
+}
+
+.picture-day img:last-child {
+	margin-right: 0px;
 }
 
 .about-text {
-	width: 500px;
+/*	text-transform: uppercase;*/
+	width: 425px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 50px;
+	text-align: center;
 }
