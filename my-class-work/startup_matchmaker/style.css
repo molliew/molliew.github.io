@@ -1,0 +1,179 @@
+body {
+	font-family: "Source Sans Pro";
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: black;
+	padding: 0 20px;
+	border-bottom: 4px solid yellow;
+	height: 75px;
+}
+
+h1 {
+	color: yellow;
+	font-family: "Merriweather", serif;
+	font-size: 30px;
+	float: left;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Merriweather", serif;
+	margin-top: 5px;
+	margin-left: 35px;
+
+}
+
+h3 {
+	font-family: "Source Sans Pro";
+	font-weight: 700;
+	font-size: 25px;
+	color: black;
+	margin: 60px 40px 0 40px;
+}
+
+h4 {
+	font-family: "Oswald";
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+}
+
+h5 {
+	font-family: "Source Sans Pro";
+	color: white;
+	font-weight: 700;
+	margin-top: 10px;
+	margin: 0px 40px;
+	padding-top: 15px;
+}
+
+
+p {
+	line-height: 150%;
+	margin: 10px 40px;
+	font-family: "Source Sans Pro";
+
+}
+
+nav {
+	float: right;
+	margin-top: 25px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-family: "Source Sans Pro";
+	margin-right: 15px;
+
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+.tagline {
+	background-color: #c6c6c6;
+	font-family: "Merriweather", serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 0;
+	font-style: italic;
+}
+
+.taste {
+	color: #b5b5b5;
+	text-decoration: line-through;
+}
+
+.are {
+	border-bottom: 3px solid yellow;
+}
+
+main {
+	background: url("images/coworking.jpg") no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+
+}
+.meet-your-match {
+	height: 300px;
+	width: 450px;
+	float: right;
+	background-color: rgba(255,255,255,0.7);
+	margin: 45px 30px;
+	-webkit-box-shadow: 0px -2px 27px -5px rgba(0,0,0,0.34);
+	-moz-box-shadow: 0px -2px 27px -5px rgba(0,0,0,0.34);
+	box-shadow: 0px -2px 27px -5px rgba(0,0,0,0.34);
+}
+
+.clear {
+	clear: both;
+}
+
+.create {
+	background: yellow;
+	width: 350px;
+	height: 45px;
+	border-radius: 5px;
+	display: block;
+	opacity: 1;
+	margin: 0 auto;
+	border: none;
+	-webkit-box-shadow: 0px 4px 2px -1px rgba(0,0,0,0.34);
+	-moz-box-shadow: 0px 4px 2px -1px rgba(0,0,0,0.34);
+	box-shadow: 0px 4px 2px -1px rgba(0,0,0,0.34);
+
+
+}
+
+section {
+	height: 250px;
+	width: 100%;
+	background-color: #eeeeee;
+	margin-bottom: 0;
+
+}
+
+.section1, .section2, .section3 {
+	float: left;
+	width: 350px;
+	height: 200px;
+	margin: 20px 0 0 30px;
+	border-left: solid 1px gray;
+
+}
+
+.callout {
+	background: #C6C6C6;
+	width: 300px;
+	height: 45px;
+	border-radius: 5px;
+	display: block;
+	opacity: 1;
+	margin: 0 auto;
+	border: none;
+	-webkit-box-shadow: 0px 4px 2px -1px rgba(0,0,0,0.34);
+	-moz-box-shadow: 0px 4px 2px -1px rgba(0,0,0,0.34);
+	box-shadow: 0px 4px 2px -1px rgba(0,0,0,0.34);
+}
+
+.section1:first-child {
+	border: none; 
+}
+
+footer {
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	margin-top: 0px;
+}
