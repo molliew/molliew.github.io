@@ -1,0 +1,154 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 42px;
+	margin-bottom: 5px;
+	font-family: 'Oswald', arial, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+}
+
+h2 {
+	font-family: 'Oswald', arial, sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 0;
+	color: #003D49;
+}
+
+h3 {
+	font-family: 'Oswald', arial, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	margin: 0;
+	color: #003D49;
+	padding-top: 25px;
+}
+
+h4 {
+	font-family: 'Oswald', arial, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	margin: 0;
+	color: white;
+	padding-top: 75px;
+}
+
+h6 {
+	font-size: 14px;
+	font-family: 'Oswald', arial, sans-serif;
+	text-transform: uppercase;
+	color: #109EBA;
+	margin-bottom: 10px;
+
+}
+
+p {
+	font-family: helvetica;
+	font-weight: 300;
+	font-size: 16px;
+	margin-top: 0;
+	line-height: 150%;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	font-family: helvetica;
+	font-weight: 300;
+	font-size: 16px;
+	margin-top: 0;
+	line-height: 150%;
+	list-style-type: none;
+}
+
+header {
+	height: 275px;
+}
+
+.colored-header {
+	height: 275px;
+	background-color: #109EBA;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+.profile-photo {
+	border-radius: 100%;
+	height: 215px;
+	padding: 25px;
+	padding-left: 0;
+	display: inline-block;
+	float: left;
+}
+
+.name-box {
+	display: inline-block;
+	position: relative;
+	height: 215px;
+	float: left;
+	margin-top: 45px;
+	margin-left: 10px;
+
+}
+
+.clear {
+	clear: both;
+}
+
+.icons {
+	display: inline-block;
+	padding: 10px;
+	font-size: 22px;
+	color: #01677B;
+}
+
+.icons:hover {
+	color: #003D49;
+}
+
+.popup {
+	height: 200px;
+	width: 600px;
+	border-radius: 25px;
+	position: fixed;
+	top: 25%;
+	left: 50%;
+	margin-left: -300px;
+}
+
+.like-profile {
+	
+	background-color: #e74c3c;
+	
+}
+
+.message-me {
+	background-color: #9b59b6;
+}
+
+.block-me {
+	background-color: #d35400;
+}
+
+.hide {
+	display: none;
+}
+
+main {
+	margin-bottom: 50px;
+}
+
