@@ -1,3 +1,5 @@
+// Good job on this. You've made a nice thermostat. Javascript functionality and syntax is great.
+
 document.getElementById('down').onclick = decreaseTemp;
 document.getElementById('up').onclick = increaseTemp;
 
