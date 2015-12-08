@@ -1,0 +1,46 @@
+h1 {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 72px;
+	text-align: center;
+	text-transform: lowercase;
+	margin-bottom: 5px;
+	color: #E82069;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #E82069;
+	margin-top: 5px;
+	margin-bottom: 75px;
+
+}
+
+body {
+    background-color: #FF793C;
+/*	background-image: linear-gradient(#FF540D, #FF0DFF);*/
+}
+
+.button {
+	width: 520px;
+	margin: 0 auto;
+}
+
+#text {
+	height: 50px;
+	width: 400px;
+	border: none;
+	padding-left: 10px;
+}
+
+#submit {
+	font-family: 'Varela Round', sans-serif;
+	text-transform: uppercase;
+	height: 53px;
+	width: 100px;
+	background-color: #FF5307;
+	border: none;
+	color: white;
+}
