@@ -1,0 +1,45 @@
+body{
+	background-color: #f2f2f2;
+}
+
+h1 {
+	display: inline;
+	margin: 20px;
+	line-height: 200px;
+}
+
+.number-holder {
+	height: 200px;
+	width: 200px;
+	background-color: #cccccc;
+	border-radius: 300px;
+	display: inline-block;
+	margin: 0 40px;
+	text-align: center;
+}
+
+.center {
+	margin: 0 auto;
+	width: 489px;
+	height: 400px;
+	margin-top: 200px;
+
+}
+
+button {
+	border-radius: 3px;
+	width: 100px;
+	height: 45px;
+	color: white;
+	border-style: none;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#down {
+	background-color: #2980b9;
+}
+
+#up {
+	background-color: #c0392b;
+}
