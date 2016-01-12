@@ -14,7 +14,7 @@ header h3 {
 	color: black;
 }
 
-header h1, header h3 {
+header h1, header h3 {/* nice use of multiple selectors */
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	margin: 15px 0;
@@ -112,7 +112,7 @@ footer ul li{
 
 }
 
-footer ul li:first-child{
+footer ul li:first-child{ /* nice use of pseudo a pseudo selector */
 	border-left: none;
 	padding-left: 0px;
 
@@ -121,3 +121,4 @@ footer ul li:first-child{
 footer p {
 	color:#bbbbbb;
 }
+/*clean, structured css. great job!*/

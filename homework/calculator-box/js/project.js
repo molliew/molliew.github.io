@@ -1,3 +1,5 @@
+// Great job on this! Functionality works perfectly and your code is clean with well-chosen variable and function names.
+
 $(document).ready (function () {
 
 	//Event Handler
